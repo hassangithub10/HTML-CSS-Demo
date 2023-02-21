@@ -221,7 +221,7 @@
     .right-container {
         height: 100%;
         width: 100%;
-        background-color: rgb(255, 234, 255);
+        background-color: rgb(255, 243, 255);
     }
 
     .right-container ul {
@@ -258,7 +258,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 8%;
+        font-size: 18px;
+        gap: 9%;
         background-color: white;
     }
 
@@ -432,7 +433,7 @@
     }
 
     .desp-1-time1 {
-        width: 60%;
+        width: 80%;
     }
 
     .desp-1 p {
@@ -452,7 +453,7 @@
 
     .desp-1b {
         display: flex;
-        width: 8%;
+        width: 7%;
     }
 
     /* .desp-1b i {
@@ -489,7 +490,7 @@
     .desp-2-c {
         display: flex;
         font-size: 13px;
-        width: 17%;
+        width: 15%;
     }
 
     .desp-3 {
@@ -530,7 +531,7 @@
 
     .desp-3-c {
         display: flex;
-        width: 20%;
+        width: 18%;
         font-size: 13px;
     }
 
@@ -545,7 +546,7 @@
     }
 
     .desp-11-time2 {
-        width: 60%;
+        width: 80%;
     }
 
     .desp-11 p {
@@ -565,7 +566,7 @@
 
     .desp-11b {
         display: flex;
-        width: 8%;
+        width: 7%;
     }
 
     /* .desp-11b i {
@@ -601,7 +602,7 @@
 
     .desp-22-c {
         display: flex;
-        width: 17%;
+        width: 15%;
         font-size: 13px;
     }
 
@@ -643,7 +644,7 @@
 
     .desp-33-c {
         display: flex;
-        width: 20%;
+        width: 18%;
         font-size: 13px;
     }
 
@@ -686,7 +687,7 @@
 
     .desp-44-c {
         display: flex;
-        width: 20%;
+        width: 18%;
         font-size: 13px;
     }
 
@@ -788,7 +789,7 @@
 
     .left-container p {
         color: darkgray;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         font-size: smaller;
     }
 
@@ -826,7 +827,7 @@
     .track {
         color: white;
         margin-top: 20px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         line-height: 25px;
     }
 
@@ -834,15 +835,11 @@
         font-size: small;
     }
 
-    .track span {
-        margin-left: 5px;
-    }
-
     /*Analize*/
     .analize {
         color: darkgray;
         margin-top: 20px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         line-height: 25px;
     }
 
@@ -907,7 +904,7 @@
     .right-container {
         height: 100%;
         width: 78%;
-        background-color: rgb(255, 234, 255);
+        background-color: rgb(255, 243, 255);
         display: block;
         float: right;
     }
@@ -929,7 +926,7 @@
     .panel input {
         height: 100%;
         width: 40%;
-        font-size: 16px;
+        font-size: 20px;
         padding-left: 2%;
         border: none;
         outline: none;
@@ -946,6 +943,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-size: 20px;
         /* gap: 8%; */
         background-color: white;
     }
@@ -1004,7 +1002,7 @@
 
     .week-right {
         height: 5%;
-        width: 50%;
+        width: 66%;
         display: flex;
         gap: 20%;
         justify-content: space-around;
@@ -1054,6 +1052,18 @@
         padding: 20px 0px 0px 0px;
     }
 
+    #pipe-clark {
+        display: none;
+    }
+
+    #pipe11 {
+        display: none;
+    }
+
+    #clark11 {
+        display: none;
+    }
+
     /*gray color bars*/
     .color-line1 {
         height: 4px;
@@ -1066,7 +1076,7 @@
         height: 3px;
         width: 5%;
         display: flex;
-        margin-left: 15px;
+        margin-left: 18px;
         border-radius: 3px;
         background-color: darkgray;
         -webkit-border-radius: 3px;
@@ -1079,7 +1089,7 @@
         height: 3px;
         width: 7%;
         display: flex;
-        margin-left: 36%;
+        margin-left: 35%;
         border-radius: 3px;
         background-color: darkgray;
     }
@@ -1088,7 +1098,7 @@
         height: 3px;
         width: 5%;
         display: flex;
-        margin-left: 31%;
+        margin-left: 28%;
         border-radius: 3px;
         background-color: darkgray;
     }
@@ -1098,14 +1108,12 @@
         height: 4px;
         width: 100%;
         display: flex;
-        margin-top: 4px;
     }
 
     .color-line-a {
         height: 3px;
         width: 40%;
         display: flex;
-        margin-left: 15px;
         border-radius: 3px;
         background-color: rgb(158, 156, 5);
         -webkit-border-radius: 3px;
